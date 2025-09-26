@@ -58,14 +58,14 @@ def create_dynamodb(table_name=TABLE_NAME, partition_key=TABLE_PARTITION_KEY):
     return
 
 
-def create_lambda(lambda_function_name, lambda_iam_role, lambda_code_file_name='order-lambda-v2'):
+def create_lambda(lambda_function_name, lambda_iam_role, lambda_code_file_name='order_lambda_v2'):
     """
         Package up the lambda function code
     """
    
     s = BytesIO()
     z = zipfile.ZipFile(s, 'w')
-    z.write(f"console_lambda_functions/{lambda_code_file_name}.py")  # Include the file with the dynamic name
+    z.write(f"{lambda_code_file_name}.py", f"{lambda_code_file_name}.py")  # Include the file with the dynamic name
     
     z.close()
     zip_content = s.getvalue()
@@ -77,7 +77,7 @@ def create_lambda(lambda_function_name, lambda_iam_role, lambda_code_file_name='
         Timeout=LAMBDA_TIMEOUT,
         Role=lambda_iam_role['Role']['Arn'],
         Code={'ZipFile': zip_content},
-        Handler=f"{lambda_code_file_name}.lambda_handler"  # Use the dynamic name for the handler
+        Handler=f"{lambda_code_file_name}".lambda_handler
     )
     return lambda_function
 
