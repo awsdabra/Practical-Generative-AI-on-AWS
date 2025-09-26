@@ -25,7 +25,8 @@ By the end of this book, you will have the knowledge, architectural patterns, an
 
 - **Amazon**: [Buy on Amazon](https://www.amazon.com/Practical-Generative-AWS-generative-applications/dp/9365894654) (US)
 - **Amazon India**: [Buy on Amazon India](https://www.amazon.in/dp/9365894654)
-- **BPB Publications**: [Buy from Publisher](https://bpbonline.com/products/practical-generative-ai-on-aws?variant=44768926105800)
+- **BPB Publications (Global)**: [Buy from Publisher](https://bpbonline.com/products/practical-generative-ai-on-aws?variant=44768926105800)
+- **BPB Publications (India)**: [Buy from BPB India](https://in.bpbonline.com/products/practical-generative-ai-on-aws?variant=47004681502958)
 - **Other Retailers**: Check your local bookstores and online retailers
 
 **ISBN-10**: 9365894654  
