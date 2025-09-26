@@ -65,7 +65,7 @@ def create_lambda(lambda_function_name, lambda_iam_role, lambda_code_file_name='
    
     s = BytesIO()
     z = zipfile.ZipFile(s, 'w')
-    z.write(f"{lambda_code_file_name}.py")  # Include the file with the dynamic name
+    z.write(f"console_lambda_functions/{lambda_code_file_name}.py")  # Include the file with the dynamic name
     
     z.close()
     zip_content = s.getvalue()
