@@ -72,7 +72,7 @@ This book is designed for:
 ### Chapter 06: Using Bedrock's Managed Agents
 - **Example61.ipynb**: Complete customer support agent implementation
 - **Example62.ipynb**: Console-based agent creation guide
-- **console_lambda_functions/**: Lambda functions for agent actions
+- **Lambda functions**: Lambda functions for agent actions (order_lambda_v2.py, order_lambda.py, returnrefund_lambda.py)
 - **utils/**: Agent helper utilities and functions
 - **data/**: Agent instructions and configuration
 - **images/**: Architecture diagrams
