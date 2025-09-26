@@ -111,7 +111,7 @@ This book is designed for:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/Practical-Generative-AI-on-AWS.git
+   git clone https://github.com/bpbpublications/Practical-Generative-AI-on-AWS
    cd Practical-Generative-AI-on-AWS
    ```
 
@@ -131,8 +131,6 @@ This book is designed for:
    pip install -r requirements.txt
    ```
 
-4. **Start with Chapter 1**: Begin with the foundational concepts in the book, then follow the examples in order.
-
 ## 🛠️ Key Technologies and Services
 
 ### AWS Services
@@ -144,6 +142,7 @@ This book is designed for:
 - **Amazon CloudWatch**: Monitoring and observability
 
 ### Frameworks and Libraries
+- **Strands Agents SDK**: Open-source, model-driven AI Agents framework
 - **LangChain**: LLM application framework
 - **LlamaIndex**: Data indexing and retrieval
 - **RAGAS**: RAG evaluation framework
